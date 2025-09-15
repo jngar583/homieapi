@@ -1,0 +1,17 @@
+{
+  "name": "homietv-extract-api",
+  "version": "1.0.0",
+  "description": "Playwright API to extract real UsersDrive & Megaup links from HomieTV",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "playwright": "^1.42.0"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
